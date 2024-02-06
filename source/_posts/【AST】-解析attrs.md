@@ -1,6 +1,8 @@
 ---
 title: 解析 attrs
+time: 2022-12-8 20:55
 categories: vue
+tag: vue
 ---
 
 # 【AST】-解析 attrs
