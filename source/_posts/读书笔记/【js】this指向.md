@@ -1,6 +1,7 @@
 ---
 title: 【js】this指向
 categories: js
+tag: js
 ---
 
 # this

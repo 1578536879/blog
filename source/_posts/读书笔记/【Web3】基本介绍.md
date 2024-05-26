@@ -1,6 +1,7 @@
 ---
 title: 【Web3】基本介绍
-categories: Defi
+categories: Web3
+tag: Web3
 ---
 
 ## 钱包

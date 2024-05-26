@@ -1,6 +1,7 @@
 ---
 title: 【Web3】去中心化存储协议
-categories: Defi
+categories: Web3
+tag: Web3
 ---
 
 ## IPFS

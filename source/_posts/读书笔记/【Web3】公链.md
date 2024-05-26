@@ -1,6 +1,7 @@
 ---
 title: 【Web3】公链
-categories: Defi
+categories: Web3
+tag: Web3
 ---
 
 ## 阶段

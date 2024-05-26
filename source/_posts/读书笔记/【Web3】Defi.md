@@ -1,6 +1,7 @@
 ---
 title: 【Web3】DAO
-categories: Defi
+categories: Web3
+tag: Web3
 ---
 
 defi是“去中心化金融”的缩写，是加密货币或者区块链中各种金融app的总称。

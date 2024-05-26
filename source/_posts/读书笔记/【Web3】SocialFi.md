@@ -1,6 +1,7 @@
 ---
 title: 【Web3】SocialFi
-categories: Defi
+categories: Web3
+tag: Web3
 ---
 
 SocialFi汇集了社交媒体和defi的原则，它提供了一种去中心化的方法来创建、管理和存储社交媒体几其参与者生产的内容。

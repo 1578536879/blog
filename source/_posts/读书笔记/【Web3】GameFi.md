@@ -1,6 +1,7 @@
 ---
 title: 【Web3】GameFi
-categories: Defi
+categories: Web3
+tag: Web3
 ---
 
 ## 定义

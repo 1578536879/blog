@@ -1,6 +1,7 @@
 ---
 title: 【Web3】二层网络
-categories: Defi
+categories: Web3
+tag: web3
 ---
 
 ## 二层网络

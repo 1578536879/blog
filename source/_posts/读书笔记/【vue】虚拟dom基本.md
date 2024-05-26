@@ -1,6 +1,7 @@
 ---
 title: 【vue】虚拟dom基本
 categories: vue
+tag: vue
 ---
 
 ## 原由

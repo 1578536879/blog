@@ -1,6 +1,7 @@
 ---
 title: 【webpack】工作流程
 categories: webpack
+tag: webpack
 ---
 
 http://wepack.wuhaolin.cn/5-2输出文件分析.zip

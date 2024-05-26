@@ -1,6 +1,7 @@
 ---
 title: 【Wasm】介绍(未完成)
 categories: webAssembly
+tag: webAssembly
 ---
 
 ## 出现背景

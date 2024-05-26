@@ -1,6 +1,7 @@
 ---
 title: 【js】属性描述符
 categories: js
+tag: js
 ---
 
 

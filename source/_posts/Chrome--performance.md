@@ -1,6 +1,10 @@
 ---
 title: Chrome的Performance
 categories: 浏览器
+tag: 
+  浏览器
+  Performance
+  Chrome
 ---
 
 # Chrome 的 performance

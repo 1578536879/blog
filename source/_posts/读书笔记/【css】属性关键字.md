@@ -1,6 +1,7 @@
 ---
 title: 【css】属性关键字
 categories: css
+tag: css
 ---
 
 ## inherit
