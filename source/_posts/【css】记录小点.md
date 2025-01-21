@@ -89,6 +89,10 @@ html元素，它没有父元素，是页面中最顶端的元素。根元素存�
 
 若元素的position=fixed，那么它的包含块是当前可视窗口，即当前浏览器的窗口
 
+注意：**小程序**中position=fixed会**受到box-shadow**的影响
+
+    box-shadow 会创建一个新的层级上下文，这可能会影响 fixed 元素的层级表现，导致它不如预期地固定在视口上。
+
 - 静态定位和相对定位元素
 
 若元素的position=relative/absolute，那么其包含块是由离他最近的块级祖先元素创建的。祖先元素必须是block、inline-block或table-cell

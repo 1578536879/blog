@@ -12,6 +12,77 @@ categories: css
 
 zindex在某些情况下可以影响层叠水平，但仅限于定位元素以及flex盒子的子元素，而层叠水平是所有元素都存在。
 
+### flex与zindex
+
+flex布局下zindex生效是父元素设置了flex，子元素设置了zindex，子元素的zindex生效，flex当前元素是不生效的
+- 非flex布局下：
+  遵循后来者居上原则，son3覆盖了son2
+  ``` html
+    .father{
+      width: 600px;
+      height: 150px;
+      z-index: 3;
+      background-color: aquamarine;
+    }
+    .son2{
+      z-index: 2;
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      background-color: white;
+    }
+    .son3{
+      z-index: 1;
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      margin-left: -20px;
+      background-color: chocolate;
+    }
+    <div class="father">
+      son1
+      <div class="son2">son2</div>
+      <div class="son3">son3</div>
+    </div>
+  ```
+
+  [![pEkTk1U.png](https://s21.ax1x.com/2025/01/20/pEkTk1U.png)](https://imgse.com/i/pEkTk1U)
+
+- flex布局下
+
+  遵循zindex谁大谁上的原则，son2覆盖了son3
+  ``` diff
+    .father{
+      width: 600px;
+      height: 150px;
+      z-index: 3;
+  + display: flex;
+      background-color: aquamarine;
+    }
+    .son2{
+      z-index: 2;
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      background-color: white;
+    }
+    .son3{
+      z-index: 1;
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      margin-left: -20px;
+      background-color: chocolate;
+    }
+    <div class="father">
+      son1
+      <div class="son2">son2</div>
+      <div class="son3">son3</div>
+    </div>
+  ```
+
+  [![pEkTZnJ.png](https://s21.ax1x.com/2025/01/20/pEkTZnJ.png)](https://imgse.com/i/pEkTZnJ)
+
 ## 层叠顺序
 
 stacking order，其表示元素层叠时有特定的垂直显示顺序，其是规则而非概念
@@ -135,6 +206,7 @@ chrome在此情景下，会将此元素作为天然层叠上下文元素
 - will-change为上面2～6的任意一个
 
 - -webkit- overflow-scrolling = touch
+
 
 
 ## 比较规则

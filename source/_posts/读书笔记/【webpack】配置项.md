@@ -13,11 +13,12 @@ categories: webpack
 ## entry
 
 类型：string/array/object
-｜类型｜例子｜说明｜
-｜——-｜——-｜——-｜
-｜string｜index•js｜入口模块的文件路径，可以是相对路径｜
-｜array｜【index。js，index2。js】｜入口模块的文件路径，可以是相对路径｜
-｜object｜{a：index。js}｜配置多个入口，每个入口生成一个chunk｜
+
+|类型|例子|说明|
+| ----- | -----|-----|
+|string|index•js|入口模块的文件路径，可以是相对路径|
+|array|【index。js，index2。js】|入口模块的文件路径，可以是相对路径|
+|object|{a：index。js}|配置多个入口，每个入口生成一个chunk|
 
 如果是array，搭配output。library时，只有数组的最后一个入口文件的模块会被导出
 
